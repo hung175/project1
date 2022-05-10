@@ -1,0 +1,45 @@
+:root{
+    --white:#FFF;
+    --black:#000;
+    --text:#333;
+    --main:#f5ba08;
+    --second:#fae92bac;
+    --gradient:linear-gradient(#f5ba08,#fae92bac);
+}
+*{
+    box-sizing: inherit;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: 0.5rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--text);
+    border-radius: 5rem;
+}
+html{
+    font-size:62.5%;
+    line-height:1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    padding: 50px 100px;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width{
+    width: 100%;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
